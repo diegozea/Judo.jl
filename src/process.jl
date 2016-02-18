@@ -164,7 +164,7 @@ const supported_mime_types =
 
 
 # Supported code block classes.
-const code_block_classes = Dict{ASCIIString, Type{MIME}}(
+const code_block_classes = Dict{ASCIIString, DataType}(
     "julia"    => MIME"text/x-julia",
     "svg"      => MIME"image/svg+xml",
     "graphviz" => MIME"text/vnd.graphviz",
